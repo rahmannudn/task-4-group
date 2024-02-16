@@ -6,7 +6,7 @@ authors = [
     {name = "rahmannudn", email = "rahmannudn0@gmail.com"},
 ]
 dependencies = [
-    "pylint>=3.0.3",
+    "ruff>=0.2.1",
 ]
 requires-python = ">=3.11"
 readme = "README.md"
@@ -19,3 +19,6 @@ build-backend = "pdm.backend"
 
 [tool.pdm]
 distribution = true
+
+[tool.ruff]
+indent-width = 4
